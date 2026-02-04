@@ -6,12 +6,81 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h1>Mémento des balises essentielles (Source : Alsacréations)</h1>
+    <p>Ci-dessous les exemples donnés dans l'article, affichés sans CSS.</p>
+    <hr>
+
+    <h2>Balise &lt;header&gt;</h2>
+    <p>Représente l'en-tête d'une section ou d'une page.</p>
     <header>
-        <ul>
-        <li><a href="../index.html">Accueil</a></li>
-        <li><a href="Exercice2.html">Exercice 2</a></li>
-    </ul>
+        <h1>Titre du site (dans un header)</h1>
     </header>
-    
+    <hr>
+
+    <h2>Balise &lt;nav&gt;</h2>
+    <p>Représente une section de liens de navigation.</p>
+    <nav>
+        <ul>
+            <li><a href="index.php">Page d'accueil</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+    </nav>
+    <hr>
+
+    <h2>Balise &lt;article&gt;</h2>
+    <p>Représente un texte indépendant (article de blog, etc).</p>
+    <article>
+        <p>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">XHTML est mort, vive HTML !</a>
+            <br>
+            Sous ce titre quelque peu provocateur (et faux) se cache une réalité officielle : le W3C vient d'annoncer que ses travaux sur XHTML 2 se termineront en 2009.
+        </p>
+    </article>
+    <hr>
+
+    <h2>Balise &lt;aside&gt;</h2>
+    <p>Contenu "bonus" ou tangentiel (barre latérale).</p>
+    <aside>
+        <h1>Archives</h1>
+        <ul>
+            <li><a href="Les Mois/Mai.html">Mai 2009</a></li>
+            <li><a href="Les Mois/Juin.html">Juin 2009</a></li>
+            <li><a href="Les Mois/Juillet.html">Juillet 2009</a></li>
+        </ul>
+    </aside>
+    <hr>
+
+    <h2>Balise &lt;figure&gt; et &lt;figcaption&gt;</h2>
+    <p>Pour regrouper une image et sa légende.</p>
+    <figure>
+        <img src="IMG_0599.webp" alt="Oh le beau chaton">
+        <figcaption>Un petit chat mignon tout plein</figcaption>
+    </figure>
+    <hr>
+
+    <h2>Balise &lt;audio&gt;</h2>
+    <p>Lecteur audio natif.</p>
+    <audio controls>
+        <source src="trappeur.ogg" type="audio/ogg">
+        <source src="trappeur.aac" type="audio/aac">
+        <a href="#">Télécharger Avant j'étais trappeur</a> de David TMX
+    </audio>
+    <hr>
+
+    <h2>Nouveaux types d'&lt;input&gt;</h2>
+    <p>Exemple du calendrier natif :</p>
+    <form>
+        <label>Sélectionner une date :</label>
+        <input type="date">
+    </form>
+    <hr>
+
+    <h2>Balise &lt;footer&gt;</h2>
+    <p>Représente le pied de page.</p>
+    <footer>
+        <p>© 2025 - Mentions légales - Auteur</p>
+    </footer>
+
 </body>
 </html>
