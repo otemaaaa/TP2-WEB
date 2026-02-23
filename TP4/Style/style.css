@@ -1,0 +1,114 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    background-color: #f4f4f9;
+    margin: 0 auto;
+    max-width: 900px; 
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2980b9;
+    border-left: 5px solid #2980b9;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+h3 {
+    color: #16a085;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+code {
+    background-color: #ecf0f1;
+    color: #c0392b;
+    font-family: "Courier New", Courier, monospace;
+    padding: 3px 6px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+pre code {
+    display: block;
+    color: #333;
+    padding: 15px;
+    overflow-x: auto; 
+    border-left: 4px solid #c0392b;
+}
+
+
+
+.images-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #333; 
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+section, nav, article {
+    border: 1px solid #333; 
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.entete-gauche, .entete-droite {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.entete-gauche { text-align: left; }
+.entete-droite { text-align: right; }
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+footer a {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #00a2ff;
+}

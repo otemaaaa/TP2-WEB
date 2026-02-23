@@ -1,0 +1,42 @@
+<h1>LANGAGE JAVASCRIPT : LES BASES DU LANGAGES</h1> <h2>LA STRUCTURE DE BASE D'UN PROGRAMME EN JAVASCRIPT</h2> <p>Lorsque le code JavaScript se trouve dans un fichier séparé (extension .js) La structure générale d'un programme écris en JavaScript est relativement simple.</p> <pre><code>
+/* zone d'en-tête */
+
+/* déclaration des variables globales */
+Declaration1;
+Declaration2;
+
+/* définition des fonctions (mot clef function) */
+
+/* CORPS DU PROGRAMME */
+Instruction1;
+Instruction2;
+
+/* FIN */
+</code></pre> <p>Même s'il est possible de déclarer nos variables à n'importe quels moments, il est conseillé de le faire en début de script pour une meilleure lisibilité du code.</p> <p>Lorsque le JavaScript est écris dans une page Web la structure est différente.</p> <p>Dans un premier temps nous allons travailler uniquement sur la partie JavaScript.</p> <p>Cela donne la structure suivante :</p> <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;TODO supply a title&lt;/title&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+
+        &lt;script&gt;
+            //ici les variables globales à la page et les fonctions
+        &lt;/script&gt;
+        
+    &lt;/head&gt;
+    &lt;body&gt;
+      
+        &lt;script&gt;
+            //ici les instructions    
+        &lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre> <p>Le langage HTML utilise des balises. Nous reviendrons dessus prochainement. La balise permettant d'ajouter du JavaScript est <code>&lt;script&gt; … &lt;/script&gt;</code></p> <p>Cette balise s'ajoute à 2 endroits particulièrement : entre les balises <code>&lt;head&gt;&lt;/head&gt;</code> pour les variables globales et pour les fonctions et entre <code>&lt;body&gt;&lt;/body&gt;</code> pour les instructions.</p> <h2>LES COMMENTAIRES</h2> <p>Les commentaires permettent une relecture de programme pour le programmeur lui-même mais aussi pour ceux qui vont relire le programme (travail en équipe).</p> <p>Un commentaire d’entête est nécessaire pour indiquer le nom du programmeur, la date, le nom du fichier, descriptif du programme.</p> <p>Les commentaires sont du texte simple et ne sont donc pas traités comme étant du code. Ils ne seront donc pas interprétés.</p> <p>2 types de commentaires sont possibles :</p> <ul>
+    <li><code>//</code> indiquent au compilateur que le reste de la ligne est un commentaire.</li> <li><code>/* ….  */</code> indiquent au compilateur qu’à partir de /* le texte est un commentaire jusqu’au symbole */ Permet des commentaires sur plusieurs lignes.</li> </ul>
+
+<pre><code>
+/* * File:   HelloWorld.js
+ * Author: sgibert
+ *
+ * Created on 14 septembre
