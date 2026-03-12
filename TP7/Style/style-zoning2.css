@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+.conteneur {
+    width: 100%; 
+}
+
+.zone-haut { background-color: #800080; padding: 20px; }
+.zone-menu { background-color: #0000ff; padding: 10px; }
+
+.grille-centrale {
+    width: 100%;
+    overflow: hidden;
+}
+
+.grand-bloc {
+    width: 50%;
+    float: left;
+}
+
+.cellule {
+    width: 50%;
+    float: left;
+    height: 100px;
+    line-height: 100px; 
+    border: 1px solid white;}
+
+.rouge .cellule { background-color: #ff0000; }
+.orange .cellule { background-color: #ffa500; }
+.vert .cellule { background-color: #008000; }
+.rouge-fonce .cellule { background-color: #a52a2a; }
+
+.zone-bas {
+    background-color: #c0c0c0;
+    color: black;
+    clear: both;
+    padding: 20px;
+}
